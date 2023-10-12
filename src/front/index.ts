@@ -131,14 +131,14 @@ function toggle(v: number) {
     if (!cellDomains[j][i].includes(v)) {
         return;
     }
-    if (cellValues[j][i] !== null) {
-        return;
-    }
     if (cellValues[j][i] === v) {
         cellValues[j][i] = null;
         updateDomains(i, j, v, true);
     }
     else {
+		if (cellValues[j][i] !== null) {
+			return;
+		}
         cellValues[j][i] = v;
         updateDomains(i, j, v, false);
     }
