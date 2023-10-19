@@ -5,8 +5,8 @@
   "scripts": {
     "start": "bun run src/index.ts",
     "dev": "bun run --watch src/index.ts",
-    "start:backend": "bun run src/back/index.ts",
-    "build:front": "bun --minify build src/front/index.ts --outdir www/js"
+    "start:backend": "bun run src/backend/index.ts",
+    "build:front": "bun --minify build src/frontend/index.ts --outdir www/js"
   },
   "devDependencies": {
     "@types/figlet": "^1.5.6",

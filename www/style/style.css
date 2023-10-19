@@ -1,0 +1,19 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background-color: teal;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+canvas {
+    box-shadow: 10px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
